@@ -1,0 +1,6 @@
+{
+  "name": "LINKED Permanent Jewelry Training",
+  "description": "Houston's premier permanent jewelry training academy. Learn how to start with confidence and build a strong foundation in permanent jewelry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

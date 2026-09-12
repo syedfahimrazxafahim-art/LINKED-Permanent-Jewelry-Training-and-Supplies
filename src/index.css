@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-ivory: #F8F5EF;
+  --color-cream: #EFE9DE;
+  --color-gold: #C9922E;
+  --color-gold-light: #DDBB73;
+  --color-softblack: #171717;
+  --color-muted: #5F5B55;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F5EF;
+  color: #171717;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Subtle satin & paper ambient textures */
+.bg-subtle-texture {
+  background-color: #F8F5EF;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(201, 146, 46, 0.03) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, rgba(239, 233, 222, 0.6) 0px, transparent 50%);
+}
+
+.bg-cream-texture {
+  background-color: #EFE9DE;
+  background-image: radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.5) 0px, transparent 60%);
+}
